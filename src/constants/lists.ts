@@ -1,10 +1,10 @@
 // the DCTDEX Default token list lives here
 export const DEFAULT_TOKEN_LIST_URL =
-  'https://raw.githubusercontent.com/Pollum-io/pegasys-tokenlists/master/tanembaum.tokenlist.json'
+  'https://raw.githubusercontent.com/TimothyHyland/syscoin-testnet-tokenlist/main/tokens.json'
 
 export const DEFAULT_LIST_OF_LISTS: string[] = [
-  DEFAULT_TOKEN_LIST_URL,
-  'https://raw.githubusercontent.com/Pollum-io/pegasys-tokenlists/master/pegasys.tokenlist.json'
+  DEFAULT_TOKEN_LIST_URL
+  //'https://raw.githubusercontent.com/Pollum-io/pegasys-tokenlists/master/pegasys.tokenlist.json'
   // 't2crtokens.eth', // kleros
   //'tokens.1inch.eth', // 1inch
   // 'synths.snx.eth',
